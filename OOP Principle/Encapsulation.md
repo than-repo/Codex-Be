@@ -1,5 +1,5 @@
 Means:
-Hide the internal details (states and methods) of an object and how control others interact with it
+Hiding the internal state of an object and exposing controlled behavior to interact with that state.
 
 Private variables, getter/setter; those are tools, not core mean
 
