@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP Principle/Encapsulation.md",
+                "file": "OOP Principle/Abstraction-grok.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encapsulation"
+              "title": "Abstraction-grok"
             }
           }
         ],
@@ -214,11 +214,19 @@
   },
   "active": "1d399c7bded12329",
   "lastOpenFiles": [
-    "OOP Principle/Overview.md",
+    "OOP Principle/Encapsulation-grok.md",
     "OOP Principle/Encapsulation.md",
+    "OOP Principle/Abstraction-grok.md",
+    "OOP Principle/Overview.md",
+    "Prompt.md",
+    "Code/test.ts",
+    "Code",
+    "New folder",
+    "test.ts",
+    "New Text Document.txt",
+    "OOP Principle/Inheritance.md",
     "Untitled.md",
     "Untitled 1",
-    "Prompt.md",
     "Basis concept in be.md",
     "Note/Aim backend.md",
     "OOP Principle",

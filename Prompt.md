@@ -47,3 +47,20 @@ Rules:
 Start the interview.
 
 **PROMPT END**
+
+Prompt, when discover B from A
+> I am currently learning [Topic A].  
+> While studying it, I discovered [Topic B].
+> 
+> My goal is to deeply understand and apply Topic A.
+> 
+> Please classify Topic B into one of the following categories:
+> 
+> 1. Foundational (must learn now)
+>     
+> 2. Supporting (can learn later)
+>     
+> 3. Tangential (not necessary now)
+>     
+> 
+> And briefly explain why.
