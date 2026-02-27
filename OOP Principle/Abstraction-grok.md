@@ -198,15 +198,15 @@ This is **pure abstraction** — your controller doesn’t know if it’s Stripe
 
 ### 1. Overall Comparison (General OOP Concept)
 
-|Feature|**Interface**|**Abstract Class**|
-|---|---|---|
-|**Purpose**|Define a **contract** (what must be done)|Provide **partial implementation** + contract|
-|**Implementation**|Only method signatures (no body)|Can have both abstract methods + **concrete methods**|
-|**Fields / Properties**|Only constants (in most languages)|Can have fields, properties, constructors|
-|**Access Modifiers**|Only public|public, protected, private|
-|**Inheritance**|Multiple (a class can implement many interfaces)|Single (a class can extend only **one** abstract class)|
-|**Instantiation**|Cannot create object|Cannot create object (abstract)|
-|**When to use**|Define capabilities / behaviors|Share common code + enforce structure|
+| Feature                 | **Interface**                                    | **Abstract Class**                                      |
+| ----------------------- | ------------------------------------------------ | ------------------------------------------------------- |
+| **Purpose**             | Define a **contract** (what must be done)        | Provide **partial implementation** + contract           |
+| **Implementation**      | Only method signatures (no body)                 | Can have both abstract methods + **concrete methods**   |
+| **Fields / Properties** | Only constants (in most languages)               | Can have fields, properties, constructors               |
+| **Access Modifiers**    | Only public                                      | public, protected, private                              |
+| **Inheritance**         | Multiple (a class can implement many interfaces) | Single (a class can extend only **one** abstract class) |
+| **Instantiation**       | Cannot create object                             | Cannot create object (abstract)                         |
+| **When to use**         | Define capabilities / behaviors                  | Share common code + enforce structure                   |
 
 **Simple rule of thumb**:
 
@@ -219,17 +219,17 @@ This is **pure abstraction** — your controller doesn’t know if it’s Stripe
 
 TypeScript adds some special differences because it compiles to plain JavaScript.
 
-|Feature|**Interface** (TS)|**Abstract Class** (TS)|
-|---|---|---|
-|**Exists at runtime?**|**No** (completely erased after compile)|**Yes** (becomes real JS class)|
-|**Bundle size**|Smaller (better for performance)|Slightly bigger|
-|**Can use instanceof?**|No|Yes|
-|**Access modifiers**|Only public|public / protected / private|
-|**Can have constructor**|No|Yes|
-|**Can have implemented methods**|No|Yes|
-|**Multiple "inheritance"**|Yes (extend multiple interfaces)|No (only one abstract class)|
-|**Declaration merging**|Yes (very powerful in TS)|No|
-|**Best for**|DTOs, API contracts, Repository, Services contracts|Base services, shared logic, Template Method pattern|
+| Feature                          | **Interface** (TS)                                  | **Abstract Class** (TS)                              |
+| -------------------------------- | --------------------------------------------------- | ---------------------------------------------------- |
+| **Exists at runtime?**           | **No** (completely erased after compile)            | **Yes** (becomes real JS class)                      |
+| **Bundle size**                  | Smaller (better for performance)                    | Slightly bigger                                      |
+| **Can use instanceof?**          | No                                                  | Yes                                                  |
+| **Access modifiers**             | Only public                                         | public / protected / private                         |
+| **Can have constructor**         | No                                                  | Yes                                                  |
+| **Can have implemented methods** | No                                                  | Yes                                                  |
+| **Multiple "inheritance"**       | Yes (extend multiple interfaces)                    | No (only one abstract class)                         |
+| **Declaration merging**          | Yes (very powerful in TS)                           | No                                                   |
+| **Best for**                     | DTOs, API contracts, Repository, Services contracts | Base services, shared logic, Template Method pattern |
 
 **Real-world Node.js advice (2026 best practices)**:
 
