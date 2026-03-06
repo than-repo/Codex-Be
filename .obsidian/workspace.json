@@ -4,41 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f044aa49dbbebd8f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6aa1577e358803b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Aim backend.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aim backend"
-            }
-          },
-          {
-            "id": "5e9a427bb4a74cb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP Principle/Polymorphism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Polymorphism"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "bd16812d7aefee86",
         "type": "tabs",
         "children": [
@@ -48,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP Principle/Inheritance.md",
+                "file": "Nodejs/Event Loop/Time phase.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inheritance"
+              "title": "Time phase"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8457915e6dd92888",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bded6ca779c1833e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nodejs/Event Loop/Terminology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terminology"
             }
           }
         ]
@@ -113,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236.5
   },
   "right": {
     "id": "d5f5d89709619804",
@@ -218,33 +203,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "5e9a427bb4a74cb2",
+  "active": "6f6145ee014aa3ff",
   "lastOpenFiles": [
+    "Nodejs/Overview.md",
+    "Untitled.md",
+    "Prompt.md",
+    "NoteToday.md",
+    "English.md",
+    "Basis concept in be.md",
+    "Nodejs/Event Loop/Pending phase.md",
+    "Nodejs/Event Loop/Close phase.md",
+    "Nodejs/Event Loop/Check phase.md",
+    "Nodejs/Event Loop/Time phase.md",
+    "Nodejs/Event Loop/Poll phase.md",
+    "Nodejs/Event Loop/Terminology.md",
+    "Nodejs/Event Loop/Overview.md",
     "OOP Principle/Inheritance.md",
-    "OOP Principle/Encapsulation.md",
-    "OOP Principle/Polymorphism.md",
+    "OOP Principle/Overview.md",
     "OOP Principle/Polymorphism-grok.md",
     "OOP Principle/inheritance-grok.md",
+    "OOP Principle/Polymorphism.md",
     "OOP Principle/Encapsulation-grok.md",
-    "Untitled.md",
-    "NoteToday.md",
-    "Nodejs/Overview.md",
-    "Nodejs/Untitled",
-    "Nodejs",
+    "OOP Principle/Encapsulation.md",
     "OOP Principle/Abstraction-grok.md",
-    "English.md",
     "OOP Principle/Abstraction.md",
-    "Prompt.md",
+    "SOLID",
+    "Nodejs/Event Loop",
+    "Nodejs",
     "Note/Aim backend.md",
-    "OOP Principle/Overview.md",
     "Code/test.ts",
     "Code",
     "New folder",
     "test.ts",
     "New Text Document.txt",
     "Untitled 1",
-    "Basis concept in be.md",
-    "OOP Principle",
-    "Note"
+    "OOP Principle"
   ]
 }

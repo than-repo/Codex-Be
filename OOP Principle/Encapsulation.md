@@ -4,7 +4,7 @@ It has two closely related aspects.: Bundling and Data hiding.
 
 Bundling means wrapping data( fields/attribute) and behavior(methods) that operate on that data into a single unit, such as class.
 
-Data hiding  means the internal state of the object is hidden from outside world. External code can't access and modify it directly. Instead, They must go through controlled public interfaces such as method or getters/setters.
+Data hiding means the internal state of the object is hidden from outside world. External code can't access and modify it directly. Instead, They must go through controlled public interfaces such as method or getters/setters.
 
 2/Difference between encapsulation and abstraction? → "Abstraction is about hiding complexity (what), encapsulation is about hiding implementation (how) and protecting data."
 

@@ -1,11 +1,7 @@
 1/What is Polymorphism?
-**Part 1 – Core Polymorphism (say this first – pure OOP, no Node.js yet)**
+Polymorphism is one of the four fundamental pillars of OOP. It means ‘many forms’.
 
-“Polymorphism is one of the four fundamental pillars of OOP. The word means **‘many forms’**.
-
-It allows objects of **different classes** to be treated as objects of **a common parent class or interface**, while each class can implement the same method in its own specific way.
-
-This gives us flexibility — we can write code that works with any class that follows the same contract, without knowing the exact type at compile time.”
+It allows different classes to have the **same method name**, but each class can do that method in its own way
 
 (Stop here. Pause. Let interviewer react.)
 
