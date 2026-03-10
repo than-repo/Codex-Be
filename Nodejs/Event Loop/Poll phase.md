@@ -7,7 +7,7 @@
 
 
 
-**The famous control over timers**:
+	**The famous control over timers**:
 
 - Poll decides **when** timers get executed next — long I/O callbacks or waiting in poll can delay timers beyond their threshold.
 - In Node.js 20+ (libuv update): Timers run **only after poll** (not before/after like older versions) → more predictable in I/O-heavy apps.
@@ -56,13 +56,13 @@ The poll phase is **not** where the file is read — the reading happens in the 
 
 ### Summary table: Poll phase lifecycle for your fs.readFile
 
-|Step in poll phase|What happens for fs.readFile example|
-|---|---|
-|Enter poll|Check for completed I/O events|
-|I/O ready?|Yes → add your (err, data) => { ... } to poll queue|
-|Process queue|Execute the callback → run if (err)... and console.log(data)|
-|Queue empty after?|Yes → decide next: setImmediate? → check phase Timers ready? → back to timers Else wait for more I/O or timer|
-|No I/O ready yet (common at start)|If no other work → wait (block) until file read finishes or timer threshold reached|
+| Step in poll phase                 | What happens for fs.readFile example                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Enter poll                         | Check for completed I/O events                                                                                |
+| I/O ready?                         | Yes → add your (err, data) => { ... } to poll queue                                                           |
+| Process queue                      | Execute the callback → run if (err)... and console.log(data)                                                  |
+| Queue empty after?                 | Yes → decide next: setImmediate? → check phase Timers ready? → back to timers Else wait for more I/O or timer |
+| No I/O ready yet (common at start) | If no other work → wait (block) until file read finishes or timer threshold reached                           |
 
 **Key takeaway for interviews** "The poll phase retrieves completed I/O events from the OS/libuv, queues their callbacks, and executes them synchronously. For fs.readFile, once the file is read in the background, the callback enters the poll queue and runs during this phase — making poll the main place where most async application logic (file, network, DB) actually executes."
 

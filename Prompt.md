@@ -64,3 +64,20 @@ Prompt, when discover B from A
 >     
 > 
 > And briefly explain why.
+
+
+
+### Memorize This Pattern
+```txt
+Teach me the single most important syntax pattern I should memorize for [topic].
+
+Rules:
+- Show only 1–2 patterns maximum
+- Use modern Node.js / JavaScript (2026 style)
+- Give clean copy-paste code
+- Add 1 short comment line per important part
+- Tell me in one sentence: "Memorize this because …"
+- Do not explain alternatives or old ways
+
+Topic: ________________
+```

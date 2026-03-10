@@ -6,6 +6,7 @@
       {
         "id": "bd16812d7aefee86",
         "type": "tabs",
+        "dimension": 58.110516934046345,
         "children": [
           {
             "id": "6f6145ee014aa3ff",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nodejs/Event Loop/Time phase.md",
+                "file": "Nodejs/Asynchronous/Promise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Time phase"
+              "title": "Promise"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "8457915e6dd92888",
         "type": "tabs",
+        "dimension": 41.889483065953655,
         "children": [
           {
             "id": "bded6ca779c1833e",
@@ -33,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nodejs/Event Loop/Terminology.md",
+                "file": "Nodejs/Asynchronous/Promise-detail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terminology"
+              "title": "Promise-detail"
             }
           }
         ]
@@ -205,19 +207,26 @@
   },
   "active": "6f6145ee014aa3ff",
   "lastOpenFiles": [
-    "Nodejs/Overview.md",
-    "Untitled.md",
-    "Prompt.md",
-    "NoteToday.md",
+    "Nodejs/Asynchronous/Promise-detail.md",
+    "Nodejs/Asynchronous/Promise.md",
+    "Nodejs/Asynchronous/Callback-detail.md",
     "English.md",
-    "Basis concept in be.md",
+    "Nodejs/Asynchronous/Terminology.md",
+    "Prompt.md",
+    "Nodejs/Asynchronous/Callback.md",
+    "Nodejs/Overview.md",
+    "Nodejs/Event Loop/Terminology.md",
+    "Nodejs/Asynchronous/Overview.md",
+    "Nodejs/Asynchronous",
+    "Nodejs/Event Loop/Overview.md",
+    "Nodejs/Event Loop/Timer phase.md",
+    "Nodejs/Event Loop/Poll phase.md",
+    "Nodejs/Event Loop/Check phase.md",
     "Nodejs/Event Loop/Pending phase.md",
     "Nodejs/Event Loop/Close phase.md",
-    "Nodejs/Event Loop/Check phase.md",
-    "Nodejs/Event Loop/Time phase.md",
-    "Nodejs/Event Loop/Poll phase.md",
-    "Nodejs/Event Loop/Terminology.md",
-    "Nodejs/Event Loop/Overview.md",
+    "Untitled.md",
+    "NoteToday.md",
+    "Basis concept in be.md",
     "OOP Principle/Inheritance.md",
     "OOP Principle/Overview.md",
     "OOP Principle/Polymorphism-grok.md",
@@ -225,18 +234,14 @@
     "OOP Principle/Polymorphism.md",
     "OOP Principle/Encapsulation-grok.md",
     "OOP Principle/Encapsulation.md",
-    "OOP Principle/Abstraction-grok.md",
-    "OOP Principle/Abstraction.md",
     "SOLID",
     "Nodejs/Event Loop",
     "Nodejs",
-    "Note/Aim backend.md",
     "Code/test.ts",
     "Code",
     "New folder",
     "test.ts",
     "New Text Document.txt",
-    "Untitled 1",
-    "OOP Principle"
+    "Untitled 1"
   ]
 }

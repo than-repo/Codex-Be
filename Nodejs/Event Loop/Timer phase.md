@@ -43,12 +43,12 @@ As a result, even if the timer has already expired, its callback cannot run unti
     - This makes timing slightly more predictable in I/O-heavy apps and affects order vs. setImmediate().
 4. **Quick comparison table (interview gold)**
 
-|API|Phase executed in|Minimum delay|Typical use case|Precision|
-|---|---|---|---|---|
-|setTimeout|**timers**|Yes|Delay work (retries, debounce)|Approximate|
-|setInterval|**timers**|Yes|Repeat periodically|Approximate|
-|setImmediate|**check**|No delay|After current poll / I/O|Runs soon after poll|
-|process.nextTick|Before any phase (microtask)|No delay|Highest priority deferral|Almost immediate|
+| API              | Phase executed in            | Minimum delay | Typical use case               | Precision            |
+| ---------------- | ---------------------------- | ------------- | ------------------------------ | -------------------- |
+| setTimeout       | **timers**                   | Yes           | Delay work (retries, debounce) | Approximate          |
+| setInterval      | **timers**                   | Yes           | Repeat periodically            | Approximate          |
+| setImmediate     | **check**                    | No delay      | After current poll / I/O       | Runs soon after poll |
+| process.nextTick | Before any phase (microtask) | No delay      | Highest priority deferral      | Almost immediate     |
 
 **One-sentence interview answer template** (use this when asked "Explain the timers phase"):
 
