@@ -6,22 +6,15 @@ JavaScript supports this because functions are **first-class**:
 
 - Can be assigned to variables
 - Can be passed as arguments
-	- Can be returned from other functions
+- Can be returned from other functions
 
 ### Common Callback Examples (relevant to Node.js & full-stack work)
 
 1. **DOM events** (browser/full-stack front-end)
-    
-    JavaScript
-    
     ```js
     button.addEventListener('click', () => { /* handle click */ });
     ```
-    
-2. **Timers**
-    
-    JavaScript
-    
+2. **Timers** 
     ```js
     setTimeout(() => { console.log("Done"); }, 2000);
     setInterval(() => { /* poll something */ }, 5000);
@@ -29,16 +22,11 @@ JavaScript supports this because functions are **first-class**:
     
 3. **Old-school XHR / AJAX** (still appears in legacy code)
     
-    JavaScript
-    
     ```js
     xhr.onreadystatechange = () => { if (xhr.readyState === 4 && xhr.status === 200) { /* success */ } };
     ```
     
-4. **Node.js core APIs – error-first callbacks** (very important for real Node work)
-    
-    JavaScript
-    
+4. **Node.js core APIs – error-first callbacks** (very important for real Node work)  
     ```js
     const fs = require('node:fs');
     fs.readFile('config.json', 'utf8', (err, data) => {
@@ -55,8 +43,6 @@ JavaScript supports this because functions are **first-class**:
 ### The Big Problem with Callbacks (why we moved on)
 
 **Callback Hell** (also called "Pyramid of Doom")
-
-JavaScript
 
 ```js
 fs.readFile('users.json', (err, data) => {
@@ -75,16 +61,12 @@ fs.readFile('users.json', (err, data) => {
 ```
 
 → Deep nesting → hard to read, debug, handle errors consistently, control flow
-
 ### Solution (what matters for jobs/interviews/real work in 2025–2026)
 
 JavaScript gave us better tools starting from ES6:
 
 1. **Promises** (ES6, 2015) → Clean chaining: .then().then().catch()
 2. **Async/Await** (ES2017) → Looks synchronous, easiest to read & maintain → Standard way to write Node.js code today
-
-JavaScript
-
 ```js
 async function processUserData() {
   try {

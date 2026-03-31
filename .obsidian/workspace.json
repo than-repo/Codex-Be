@@ -6,7 +6,7 @@
       {
         "id": "bd16812d7aefee86",
         "type": "tabs",
-        "dimension": 58.110516934046345,
+        "dimension": 47.68270944741533,
         "children": [
           {
             "id": "6f6145ee014aa3ff",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nodejs/Asynchronous/Promise.md",
-                "mode": "source",
+                "file": "Nodejs/Asynchronous/Callback.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise"
+              "title": "Callback"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "8457915e6dd92888",
         "type": "tabs",
-        "dimension": 41.889483065953655,
+        "dimension": 52.31729055258467,
         "children": [
           {
             "id": "bded6ca779c1833e",
@@ -35,15 +35,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nodejs/Asynchronous/Promise-detail.md",
+                "file": "Nodejs/Asynchronous/Callback-detail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise-detail"
+              "title": "Callback-detail"
+            }
+          },
+          {
+            "id": "11d44146651af905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nodejs/Asynchronous/Callback-detail.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Callback-detail"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,41 +222,41 @@
   },
   "active": "6f6145ee014aa3ff",
   "lastOpenFiles": [
-    "Nodejs/Asynchronous/Promise-detail.md",
-    "Nodejs/Asynchronous/Promise.md",
     "Nodejs/Asynchronous/Callback-detail.md",
-    "English.md",
-    "Nodejs/Asynchronous/Terminology.md",
-    "Prompt.md",
     "Nodejs/Asynchronous/Callback.md",
+    "Nodejs/Stream/Overview.md",
+    "Microservices/Note.md",
+    "Nodejs/Stream/What are Streams Core Definition & Purpose.md",
+    "English.md",
+    "Prompt.md",
+    "Nodejs/HTTP/Method-URL-header.md",
     "Nodejs/Overview.md",
-    "Nodejs/Event Loop/Terminology.md",
-    "Nodejs/Asynchronous/Overview.md",
-    "Nodejs/Asynchronous",
-    "Nodejs/Event Loop/Overview.md",
-    "Nodejs/Event Loop/Timer phase.md",
-    "Nodejs/Event Loop/Poll phase.md",
+    "Nodejs/Buffer/Overview.md",
+    "Nodejs/Stream",
+    "Nodejs/Buffer",
     "Nodejs/Event Loop/Check phase.md",
-    "Nodejs/Event Loop/Pending phase.md",
-    "Nodejs/Event Loop/Close phase.md",
-    "Untitled.md",
-    "NoteToday.md",
-    "Basis concept in be.md",
-    "OOP Principle/Inheritance.md",
-    "OOP Principle/Overview.md",
-    "OOP Principle/Polymorphism-grok.md",
-    "OOP Principle/inheritance-grok.md",
     "OOP Principle/Polymorphism.md",
-    "OOP Principle/Encapsulation-grok.md",
+    "OOP Principle/Inheritance.md",
     "OOP Principle/Encapsulation.md",
+    "OOP Principle/Abstraction.md",
+    "Nodejs/Blocking vs Non-Blocking/Mixing sync and async.md",
+    "Nodejs/Blocking vs Non-Blocking/Blocking.md",
+    "Nodejs/HTTP/Server-detail.md",
+    "Nodejs/HTTP/Server.md",
+    "Nodejs/HTTP/Terminology.md",
+    "Nodejs/HTTP/Note.md",
+    "Microservices",
+    "Nodejs/HTTP/Overview.md",
+    "Nodejs/Asynchronous/Promise-detail.md",
+    "Nodejs/HTTP",
+    "Nodejs/Asynchronous/Promise.md",
+    "Nodejs/Asynchronous/Overview.md",
+    "Nodejs/Blocking vs Non-Blocking",
+    "Nodejs/Event Loop/Poll phase.md",
+    "Nodejs/Asynchronous",
     "SOLID",
     "Nodejs/Event Loop",
     "Nodejs",
-    "Code/test.ts",
-    "Code",
-    "New folder",
-    "test.ts",
-    "New Text Document.txt",
-    "Untitled 1"
+    "Code/test.ts"
   ]
 }

@@ -1,7 +1,7 @@
 1/What is Polymorphism?
 Polymorphism is one of the four fundamental pillars of OOP. It means ‘many forms’.
 
-It allows different classes to have the **same method name**, but each class can do that method in its own way
+It allows different classes to have the **same method name**, but each class can do that method in its own way.
 
 (Stop here. Pause. Let interviewer react.)
 
